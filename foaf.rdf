@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="foaf-to-xhtml.xsl"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <!-- Déclaration d'une personne -->
+  <foaf:Person rdf:about="http://subwaymdfrappe.x10.bz/foaf.rdf">
+    
+    <!-- Nom complet -->
+    <foaf:name>Zaki KAD</foaf:name>
+
+    <!-- Adresse e-mail -->
+    <foaf:mbox rdf:resource="mailto:zkaddour@etudiant.univ-lr.fr"/>
+    
+    <!-- Page d'accueil (homepage) -->
+    <foaf:homepage rdf:resource="http://subwaymdfrappe.x10.bz/"/>
+
+    <!-- Nom d'utilisateur -->
+    <foaf:nick>zkaddour</foaf:nick>
+
+    <!-- Genre -->
+    <foaf:gender>Male</foaf:gender>
+    
+    <!-- Image du profil -->
+    <foaf:img rdf:resource="http://subwaymdfrappe.x10.bz/images/xddd.gif"/>
+
+    <!-- Une brève description -->
+    <foaf:title>Dj et maître poney</foaf:title>
+
+    <foaf:knows>
+      <foaf:Person rdf:about="https://m2-lr-jd.x10.mx/foaf.rdf">
+        <foaf:name>DERAMAIX Julien</foaf:name>
+        <foaf:mbox rdf:resource="mailto:julien40.der@gmail.com"/>
+        <foaf:homepage rdf:resource="https://m2-lr-jd.x10.mx/"/>
+        <foaf:nick>jderamaix</foaf:nick>
+        <foaf:title>Etudiant en Master Informatique</foaf:title>
+      </foaf:Person>
+    </foaf:knows>
+
+  </foaf:Person>
+
+</rdf:RDF>
